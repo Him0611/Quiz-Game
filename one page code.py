@@ -33,7 +33,9 @@ for i in range(len(question_list)):
         print("you got it right")
         print("The correct answer is:" + answer)
         print(f"Your current score is: {score}/{(i+1)}.")
+        print()
     else:
         print("You are wrong")
         print("The correct answer is:" + Question_answer[i])
         print(f"your current score is: {score}/{(i+1)}.")
+        print()
